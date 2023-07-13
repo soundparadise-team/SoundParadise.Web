@@ -1,0 +1,125 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <SpaRoot>..\SoundParadise.Client\</SpaRoot>
+        <SpaProxyServerUrl>https://localhost:44461</SpaProxyServerUrl>
+        <SpaProxyLaunchCommand>npm start</SpaProxyLaunchCommand>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.16.0"/>
+        <PackageReference Include="Bogus" Version="34.0.2"/>
+        <PackageReference Include="CloudIpspSDK" Version="1.0.4"/>
+        <PackageReference Include="FluentValidation" Version="11.5.2"/>
+        <PackageReference Include="Google.Apis.Auth" Version="1.60.0"/>
+        <PackageReference Include="Google.Apis.Gmail.v1" Version="1.60.0.3056"/>
+        <PackageReference Include="Humanizer.Core" Version="2.14.1"/>
+        <PackageReference Include="IdentityServer4" Version="4.1.2"/>
+        <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1"/>
+        <PackageReference Include="IdentityServer4.EntityFramework.Storage" Version="4.1.2"/>
+        <PackageReference Include="MailKit" Version="4.1.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="7.0.5"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.5"/>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.5"/>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="7.0.5"/>
+        <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.35.0"/>
+        <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0-preview.4.23259.3">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-preview.4.23259.3"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-preview.4.23259.3">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0-preview.4.23259.5"/>
+        <PackageReference Include="Microsoft.Identity.Web" Version="2.11.0"/>
+        <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0"/>
+        <PackageReference Include="MimeKit" Version="4.1.0"/>
+        <PackageReference Include="NLog" Version="5.1.5"/>
+        <PackageReference Include="NLog.Database" Version="5.1.5"/>
+        <PackageReference Include="NLog.Extensions.Logging" Version="5.2.5"/>
+        <PackageReference Include="NLog.Web.AspNetCore" Version="5.2.3"/>
+        <PackageReference Include="Slugify" Version="0.1.0.20570"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.ApiTesting" Version="6.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0"/>
+        <PackageReference Include="System.Collections" Version="4.3.0"/>
+        <PackageReference Include="System.Data.SqlClient" Version="4.8.5"/>
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.30.1"/>
+        <PackageReference Include="WindowsAzure.Storage" Version="9.3.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Don't publish the SPA source files, but do show them in the project files list -->
+        <Content Remove="$(SpaRoot)**"/>
+        <None Remove="$(SpaRoot)**"/>
+        <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**"/>
+        <None Remove="..\SoundParadise.Client\.vscode\**"/>
+        <None Remove="..\SoundParadise.Client\src\**"/>
+        <None Remove="..\SoundParadise.Client\dist\**"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Migrations\"/>
+        <Folder Include="Models\Cart\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <_ContentIncludedByDefault Remove="Data\Seeds\categories.json"/>
+        <_ContentIncludedByDefault Remove="Pages\Error.cshtml"/>
+        <_ContentIncludedByDefault Remove="Pages\_ViewImports.cshtml"/>
+        <_ContentIncludedByDefault Remove="SoundParadise.Web.Tests\obj\project.packagespec.json"/>
+        <_ContentIncludedByDefault Remove="Documentation\_site\manifest.json"/>
+        <_ContentIncludedByDefault Remove="Documentation\_site\search-stopwords.json"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="soundparadise.ico"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Resource Include="docs\media\logo.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Resource>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <DocumentationFile>bin\Debug\net7.0\SoundParadise.Api.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+        <!-- Ensure Node.js is installed -->
+        <Exec Command="node --version" ContinueOnError="true">
+            <Output TaskParameter="ExitCode" PropertyName="ErrorCode"/>
+        </Exec>
+        <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE."/>
+        <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..."/>
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm install"/>
+    </Target>
+
+    <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+        <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm install"/>
+        <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build -- --configuration production"/>
+
+        <!-- Include thчe newly-built files in the publish output -->
+        <ItemGroup>
+            <DistFiles Include="$(SpaRoot)dist\**; $(SpaRoot)dist-server\**"/>
+            <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+                <RelativePath>wwwroot\%(RecursiveDir)%(FileName)%(Extension)</RelativePath>
+                <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+                <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+            </ResolvedFileToPublish>
+        </ItemGroup>
+    </Target>
+</Project>

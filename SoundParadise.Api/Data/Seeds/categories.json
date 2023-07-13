@@ -1,0 +1,2467 @@
+{
+  "categories": {
+    "Гітари": {
+      "subcategories": {
+        "Акустичні гітари": {
+          "image": "acoustic_guitara_background.jpg",
+          "products": [
+            {
+              "name": "Martin D-28",
+              "image": "Martin D-28.jpeg"
+            },
+            {
+              "name": "Taylor 814ce",
+              "image": "Taylor 814ce.jpg"
+            },
+            {
+              "name": "Gibson J-45",
+              "image": "Gibson J-45.jpg"
+            },
+            {
+              "name": "Fender CD-60",
+              "image": "Fender CD-60.jpg"
+            },
+            {
+              "name": "Epiphone Hummingbird",
+              "image": "Epiphone Hummingbird.jpg"
+            },
+            {
+              "name": "Guild D-55",
+              "image": "Guild D-55.jpg"
+            },
+            {
+              "name": "Seagull S6 Original",
+              "image": "Seagull S6 Original.jpg"
+            },
+            {
+              "name": "Yamaha FG800",
+              "image": "Yamaha FG800.jpg"
+            },
+            {
+              "name": "Blueridge BR-160",
+              "image": "Blueridge BR-160.jpg"
+            },
+            {
+              "name": "Ibanez AW54",
+              "image": "Ibanez AW54.jpg"
+            }
+          ]
+        },
+        "Електрогітари": {
+          "image": "electro_gitara_background.jpg",
+          "products": [
+            {
+              "name": "Fender Stratocaster",
+              "image": "Fender Stratocaster.jpg"
+            },
+            {
+              "name": "Gibson Les Paul",
+              "image": "Gibson Les Paul.jpg"
+            },
+            {
+              "name": "PRS Custom 24",
+              "image": "PRS Custom 24.jpeg"
+            },
+            {
+              "name": "Ibanez RG550",
+              "image": "Ibanez RG550.jpg"
+            },
+            {
+              "name": "Gretsch G2622 Streamliner",
+              "image": "Gretsch G2622 Streamliner.jpg"
+            },
+            {
+              "name": "Epiphone Casino",
+              "image": "Epiphone Casino.jpg"
+            },
+            {
+              "name": "Fender Telecaster",
+              "image": "Fender Telecaster.jpg"
+            },
+            {
+              "name": "Gibson SG",
+              "image": "Gibson SG.jpg"
+            },
+            {
+              "name": "Schecter Hellraiser C-1",
+              "image": "Schecter Hellraiser C-1.jpg"
+            },
+            {
+              "name": "ESP LTD EC-1000",
+              "image": "ESP LTD EC-1000.jpg"
+            }
+          ]
+        },
+        "Бас-гітари": {
+          "image": "bas_guitara_background.jpg",
+          "products": [
+            {
+              "name": "Fender Precision Bass",
+              "image": "Fender Precision Bass.jpeg"
+            },
+            {
+              "name": "Music Man StingRay",
+              "image": "Music Man StingRay.jpg"
+            },
+            {
+              "name": "Gibson Thunderbird",
+              "image": "Gibson Thunderbird.jpg"
+            },
+            {
+              "name": "Ibanez SR500",
+              "image": "Ibanez SR500.jpg"
+            },
+            {
+              "name": "Yamaha TRBX304",
+              "image": "Yamaha TRBX304.jpg"
+            },
+            {
+              "name": "Schecter Omen Extreme-4",
+              "image": "Schecter Omen Extreme-4.jpg"
+            },
+            {
+              "name": "Squier Vintage Modified Jazz Bass",
+              "image": "Squier Vintage Modified Jazz Bass.jpg"
+            },
+            {
+              "name": "Rickenbacker 4003",
+              "image": "Rickenbacker 4003.jpg"
+            },
+            {
+              "name": "Epiphone Thunderbird Pro",
+              "image": "Epiphone Thunderbird Pro.jpg"
+            },
+            {
+              "name": "Warwick Corvette",
+              "image": "Warwick Corvette.jpg"
+            }
+          ]
+        },
+        "Класичні гітари": {
+          "image": "classic_gitara_background.jpg",
+          "products": [
+            {
+              "name": "Cordoba C7",
+              "image": "Cordoba C7.jpg"
+            },
+            {
+              "name": "Yamaha CG182S",
+              "image": "Yamaha CG182S.jpg"
+            },
+            {
+              "name": "Takamine GC5",
+              "image": "Takamine GC5.jpg"
+            },
+            {
+              "name": "Alhambra 5P",
+              "image": "Alhambra 5P.jpg"
+            },
+            {
+              "name": "Höfner HA-GC07",
+              "image": "Höfner HA-GC07.jpg"
+            },
+            {
+              "name": "La Patrie Etude",
+              "image": "La Patrie Etude.jpg"
+            },
+            {
+              "name": "Ibanez GA5TCE",
+              "image": "Ibanez GA5TCE.jpg"
+            },
+            {
+              "name": "Manuel Rodriguez Caballero 11",
+              "image": "Manuel Rodriguez Caballero 11.jpg"
+            },
+            {
+              "name": "Córdoba C5",
+              "image": "Córdoba C5.jpg"
+            },
+            {
+              "name": "Yamaha CG122MCH",
+              "image": "Yamaha CG122MCH.jpg"
+            }
+          ]
+        },
+        "Акустико-електричні гітари": {
+          "image": "acoustic_electric_guitar_background.jpg",
+          "products": [
+            {
+              "name": "Taylor T5z",
+              "image": "Taylor T5z.jpg"
+            },
+            {
+              "name": "Martin GPCPA4",
+              "image": "Martin GPCPA4.jpg"
+            },
+            {
+              "name": "Gibson J-200",
+              "image": "Gibson J-200.jpg"
+            },
+            {
+              "name": "Epiphone EJ-200SCE",
+              "image": "Epiphone EJ-200SCE.jpg"
+            },
+            {
+              "name": "Fender American Acoustasonic",
+              "image": "Fender American Acoustasonic.jpg"
+            },
+            {
+              "name": "PRS SE P20E",
+              "image": "PRS SE P20E.jpg"
+            },
+            {
+              "name": "Ibanez AEWC400",
+              "image": "Ibanez AEWC400.jpg"
+            },
+            {
+              "name": "Gretsch G5034TFT Rancher",
+              "image": "Gretsch G5034TFT Rancher.jpg"
+            },
+            {
+              "name": "Yamaha A5R ARE",
+              "image": "Yamaha A5R ARE.jpg"
+            },
+            {
+              "name": "Seagull Performer CW Concert Hall",
+              "image": "Seagull Performer CW Concert Hall.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "Клавішні інструменти": {
+      "subcategories": {
+        "Піаніно": {
+          "image": "pianino_background.jpg",
+          "products": [
+            {
+              "name": "Yamaha U1",
+              "image": "Yamaha U1.jpg"
+            },
+            {
+              "name": "Kawai K-200",
+              "image": "Kawai K-200.jpg"
+            },
+            {
+              "name": "Steinway Model B",
+              "image": "Steinway Model B.jpg"
+            },
+            {
+              "name": "Roland GP609",
+              "image": "Roland GP609.jpg"
+            },
+            {
+              "name": "C. Bechstein Classic 124",
+              "image": "C. Bechstein Classic 124.jpg"
+            },
+            {
+              "name": "Casio PX-770",
+              "image": "Casio PX-770.jpg"
+            },
+            {
+              "name": "Yamaha P-125",
+              "image": "Yamaha P-125.jpg"
+            },
+            {
+              "name": "Korg B2",
+              "image": "Korg B2.jpg"
+            },
+            {
+              "name": "Roland FP-30",
+              "image": "Roland FP-30.jpg"
+            },
+            {
+              "name": "Kawai ES110",
+              "image": "Kawai ES110.jpg"
+            }
+          ]
+        },
+        "Цифрові піаніно": {
+          "image": "digital_pianos_background.jpeg",
+          "products": [
+            {
+              "name": "Yamaha Clavinova CLP-685",
+              "image": "Yamaha Clavinova CLP-685.jpg"
+            },
+            {
+              "name": "Roland RD-2000",
+              "image": "Roland RD-2000.jpg"
+            },
+            {
+              "name": "Kawai CA79",
+              "image": "Kawai CA79.jpg"
+            },
+            {
+              "name": "Casio Privia PX-870",
+              "image": "Casio Privia PX-870.jpg"
+            },
+            {
+              "name": "Nord Stage 3",
+              "image": "Nord Stage 3.jpg"
+            },
+            {
+              "name": "Korg Grandstage 88",
+              "image": "Korg Grandstage 88.jpg"
+            },
+            {
+              "name": "Yamaha P-515",
+              "image": "Yamaha P-515.jpg"
+            },
+            {
+              "name": "Roland FP-90",
+              "image": "Roland FP-90.jpg"
+            },
+            {
+              "name": "Casio PX-S3000",
+              "image": "Casio PX-S3000.jpg"
+            },
+            {
+              "name": "Kawai MP11SE",
+              "image": "Kawai MP11SE.jpeg"
+            }
+          ]
+        },
+        "Синтезатори": {
+          "image": "synthesizers_background.jpg",
+          "products": [
+            {
+              "name": "Moog Subsequent 37",
+              "image": "Moog Subsequent 37.jpg"
+            },
+            {
+              "name": "Korg Prologue",
+              "image": "Korg Prologue.jpg"
+            },
+            {
+              "name": "Roland Jupiter-X",
+              "image": "Roland Jupiter-X.jpg"
+            },
+            {
+              "name": "Arturia Minibrute",
+              "image": "Arturia Minibrute.jpg"
+            },
+            {
+              "name": "Yamaha Montage 8",
+              "image": "Yamaha Montage 8.jpg"
+            },
+            {
+              "name": "Novation Peak",
+              "image": "Novation Peak.jpg"
+            },
+            {
+              "name": "Dave Smith Instruments Prophet Rev2",
+              "image": "Dave Smith Instruments Prophet Rev2.jpg"
+            },
+            {
+              "name": "Elektron Analog Four MKII",
+              "image": "Elektron Analog Four MKII.jpg"
+            },
+            {
+              "name": "Korg Minilogue XD",
+              "image": "Korg Minilogue XD.jpg"
+            },
+            {
+              "name": "Behringer DeepMind 12",
+              "image": "Behringer DeepMind 12.jpg"
+            }
+          ]
+        },
+        "MIDI-клавіатури": {
+          "image": "midi_keyboards_background.jpg",
+          "products": [
+            {
+              "name": "Akai MPK Mini",
+              "image": "Akai MPK Mini.jpg"
+            },
+            {
+              "name": "Native Instruments Komplete Kontrol S49",
+              "image": "Native Instruments Komplete Kontrol S49.jpg"
+            },
+            {
+              "name": "Arturia KeyLab Essential 49",
+              "image": "Arturia KeyLab Essential 49.jpg"
+            },
+            {
+              "name": "M-Audio Keystation 49 MK3",
+              "image": "M-Audio Keystation 49 MK3.jpg"
+            },
+            {
+              "name": "Nektar Impact GX49",
+              "image": "Nektar Impact GX49.jpg"
+            },
+            {
+              "name": "Novation Launchkey 49",
+              "image": "Novation Launchkey 49.jpg"
+            },
+            {
+              "name": "Korg microKEY2",
+              "image": "Korg microKEY2.jpg"
+            },
+            {
+              "name": "Behringer U-Control UMX490",
+              "image": "Behringer U-Control UMX490.jpg"
+            },
+            {
+              "name": "Alesis V49",
+              "image": "Alesis V49.jpg"
+            },
+            {
+              "name": "MIDIPLUS X6 mini",
+              "image": "MIDIPLUS X6 mini.jpeg"
+            }
+          ]
+        },
+        "Органи": {
+          "image": "organ_background.jpg",
+          "products": [
+            {
+              "name": "Hammond B3",
+              "image": "Hammond B3.jpg"
+            },
+            {
+              "name": "Viscount Legend Live",
+              "image": "Viscount Legend Live.jpg"
+            },
+            {
+              "name": "Roland VK-8M",
+              "image": "Roland VK-8M.jpg"
+            },
+            {
+              "name": "Nord C2D",
+              "image": "Nord C2D.jpg"
+            },
+            {
+              "name": "Yamaha Electone STAGEA ELS-02C",
+              "image": "Yamaha Electone STAGEA ELS-02C.jpg"
+            },
+            {
+              "name": "Korg CX-3",
+              "image": "Korg CX-3.jpg"
+            },
+            {
+              "name": "Hammond XK-5",
+              "image": "Hammond XK-5.jpg"
+            },
+            {
+              "name": "Roland AT-900C",
+              "image": "Roland AT-900C.jpg"
+            },
+            {
+              "name": "Allen Organ Bravura L-321",
+              "image": "Allen Organ Bravura L-321.jpg"
+            },
+            {
+              "name": "Lowrey Inspire",
+              "image": "Lowrey Inspire.jpg"
+            }
+          ]
+        },
+        "Акордеони": {
+          "image": "accordion_background.jpg",
+          "products": [
+            {
+              "name": "Hohner Panther",
+              "image": "Hohner Panther.jpg"
+            },
+            {
+              "name": "Roland FR-4X",
+              "image": "Roland FR-4X.jpg"
+            },
+            {
+              "name": "Scandalli Air IV",
+              "image": "Scandalli Air IV.jpg"
+            },
+            {
+              "name": "Sofiamari SM-3232",
+              "image": "Sofiamari SM-3232.jpg"
+            },
+            {
+              "name": "Titano Titan",
+              "image": "Titano Titan.jpg"
+            },
+            {
+              "name": "Vignoni Champion",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Giulietti F-127",
+              "image": "Giulietti F-127.jpg"
+            },
+            {
+              "name": "Beltuna Studio IV",
+              "image": "Beltuna Studio IV.jpg"
+            },
+            {
+              "name": "Bugari Evo Sirius",
+              "image": "Bugari Evo Sirius.jpg"
+            },
+            {
+              "name": "Saltarelle Irish Bouebe",
+              "image": "Saltarelle Irish Bouebe.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "Духові інструменти": {
+      "subcategories": {
+        "Тромбони": {
+          "image": "trombone_background.jpeg",
+          "products": [
+            {
+              "name": "Bach 42BO",
+              "image": "Bach 42BO.jpg"
+            },
+            {
+              "name": "Yamaha YSL-882OR",
+              "image": "Yamaha YSL-882OR.jpg"
+            },
+            {
+              "name": "Conn 88HO",
+              "image": "Conn 88HO.jpg"
+            },
+            {
+              "name": "King 3B",
+              "image": "King 3B.jpg"
+            },
+            {
+              "name": "Getzen Eterna",
+              "image": "Getzen Eterna.jpg"
+            },
+            {
+              "name": "Courtois AC420B",
+              "image": "Courtois AC420B.jpg"
+            },
+            {
+              "name": "Edwards T350-E",
+              "image": "Edwards T350-E.jpg"
+            },
+            {
+              "name": "Shires Q30YA",
+              "image": "Shires Q30YA.jpg"
+            },
+            {
+              "name": "Holton TR181",
+              "image": "Holton TR181.jpg"
+            },
+            {
+              "name": "S.E. Shires Custom Series",
+              "image": "S.E. Shires Custom Series.jpg"
+            }
+          ]
+        },
+        "Труби": {
+          "image": "trumpet_background.jpg",
+          "products": [
+            {
+              "name": "Bach Stradivarius 180S37",
+              "image": "Bach Stradivarius 180S37.jpg"
+            },
+            {
+              "name": "Yamaha YTR-8335RS",
+              "image": "Yamaha YTR-8335RS.jpg"
+            },
+            {
+              "name": "Schilke B5",
+              "image": "Schilke B5.jpg"
+            },
+            {
+              "name": "Conn 52BSP",
+              "image": "Conn 52BSP.jpg"
+            },
+            {
+              "name": "Getzen 900S Eterna",
+              "image": "Getzen 900S Eterna.jpg"
+            },
+            {
+              "name": "B&S Challenger II",
+              "image": "B&S Challenger II.jpg"
+            },
+            {
+              "name": "Kanstul 1001",
+              "image": "Kanstul 1001.jpg"
+            },
+            {
+              "name": "Jupiter XO 1600I",
+              "image": "Jupiter XO 1600I.jpg"
+            },
+            {
+              "name": "Stomvi Elite 250",
+              "image": "Stomvi Elite 250.jpg"
+            },
+            {
+              "name": "King Silver Flair",
+              "image": "King Silver Flair.jpg"
+            }
+          ]
+        },
+        "Саксофони": {
+          "image": "saxophone_background.jpg",
+          "products": [
+            {
+              "name": "Selmer Mark VI",
+              "image": "Selmer Mark VI.jpg"
+            },
+            {
+              "name": "Yamaha YAS-62",
+              "image": "Yamaha YAS-62.jpg"
+            },
+            {
+              "name": "Keilwerth SX90R",
+              "image": "Keilwerth SX90R.jpg"
+            },
+            {
+              "name": "Conn 10M",
+              "image": "Conn 10M.jpg"
+            },
+            {
+              "name": "Cannonball Big Bell Stone Series",
+              "image": "Cannonball Big Bell Stone Series.jpg"
+            },
+            {
+              "name": "P. Mauriat PMXA-67R",
+              "image": "P. Mauriat PMXA-67R.jpg"
+            },
+            {
+              "name": "Vandoren V16",
+              "image": "Vandoren V16.jpg"
+            },
+            {
+              "name": "Yanagisawa A-WO10",
+              "image": "Yanagisawa A-WO10.jpg"
+            },
+            {
+              "name": "Buffet Crampon 400 Series",
+              "image": "Buffet Crampon 400 Series.jpg"
+            },
+            {
+              "name": "Jupiter JAS1100",
+              "image": "Jupiter JAS1100.jpg"
+            }
+          ]
+        },
+        "Кларнети": {
+          "image": "clarinet_background.jpg",
+          "products": [
+            {
+              "name": "Buffet Crampon R13",
+              "image": "Buffet Crampon R13.jpeg"
+            },
+            {
+              "name": "Yamaha YCL-650",
+              "image": "Yamaha YCL-650.jpg"
+            },
+            {
+              "name": "Selmer Paris Series 10",
+              "image": "Selmer Paris Series 10.jpg"
+            },
+            {
+              "name": "Leblanc Bliss",
+              "image": "Leblanc Bliss.jpg"
+            },
+            {
+              "name": "Backun Protege",
+              "image": "Backun Protege.jpg"
+            },
+            {
+              "name": "Selmer CL211",
+              "image": "Selmer CL211.jpg"
+            },
+            {
+              "name": "Vito 7214",
+              "image": "Vito 7214.jpg"
+            },
+            {
+              "name": "Jupiter JCL-1100S",
+              "image": "Jupiter JCL-1100S.jpg"
+            },
+            {
+              "name": "Yanagisawa SCWO10",
+              "image": "Yanagisawa SCWO10.jpg"
+            },
+            {
+              "name": "Buffet Crampon E11",
+              "image": "Buffet Crampon E11.jpg"
+            }
+          ]
+        },
+        "Флейти": {
+          "image": "flute_background.jpg",
+          "products": [
+            {
+              "name": "Yamaha YFL-212",
+              "image": "Yamaha YFL-212.jpg"
+            },
+            {
+              "name": "Gemeinhardt 2SP",
+              "image": "Gemeinhardt 2SP.jpg"
+            },
+            {
+              "name": "Pearl Quantz 505",
+              "image": "Pearl Quantz 505.jpg"
+            },
+            {
+              "name": "Azumi AZ2",
+              "image": "Azumi AZ2.jpg"
+            },
+            {
+              "name": "Jupiter JFL700",
+              "image": "Jupiter JFL700.jpg"
+            },
+            {
+              "name": "Altus 807",
+              "image": "Altus 807.jpg"
+            },
+            {
+              "name": "Miyazawa 202",
+              "image": "Miyazawa 202.jpg"
+            },
+            {
+              "name": "Muramatsu EX",
+              "image": "Muramatsu EX.jpeg"
+            },
+            {
+              "name": "Sankyo CF201",
+              "image": "Sankyo CF201.jpg"
+            },
+            {
+              "name": "Trevor James 10x",
+              "image": "Trevor James 10x.jpg"
+            }
+          ]
+        },
+        "Валторни": {
+          "image": "horn_background.jpeg",
+          "products": [
+            {
+              "name": "Conn 8D",
+              "image": "Conn 8D.jpg"
+            },
+            {
+              "name": "Holton H179",
+              "image": "Holton H179.jpg"
+            },
+            {
+              "name": "Yamaha YHR-667",
+              "image": "Yamaha YHR-667.jpg"
+            },
+            {
+              "name": "Alexander 103",
+              "image": "Alexander 103.jpg"
+            },
+            {
+              "name": "Paxman 20L",
+              "image": "Paxman 20L.jpg"
+            },
+            {
+              "name": "Schmid HR550",
+              "image": "Schmid HR550.jpg"
+            },
+            {
+              "name": "Berg 4",
+              "image": "Berg 4.jpg"
+            },
+            {
+              "name": "Finke Geyer Model",
+              "image": "Finke Geyer Model.jpg"
+            },
+            {
+              "name": "Reynolds R179",
+              "image": "Reynolds R179.jpg"
+            },
+            {
+              "name": "King Eroica",
+              "image": "King Eroica.jpg"
+            }
+          ]
+        },
+        "Обої": {
+          "image": "background.jpg",
+          "products": [
+            {
+              "name": "Fox Renard Model 330",
+              "image": "Fox Renard Model 330.jpg"
+            },
+            {
+              "name": "Howarth S20C",
+              "image": "Howarth S20C.jpg"
+            },
+            {
+              "name": "Marigaux 901",
+              "image": "Marigaux 901.jpg"
+            },
+            {
+              "name": "Yamaha YOB-441",
+              "image": "Yamaha YOB-441.jpg"
+            },
+            {
+              "name": "Bulgheroni Student",
+              "image": "Bulgheroni Student.jpg"
+            },
+            {
+              "name": "Loree AK Royal",
+              "image": "Loree AK Royal.jpg"
+            },
+            {
+              "name": "Fossati Tiery",
+              "image": "Fossati Tiery.jpg"
+            },
+            {
+              "name": "Rigoutat RIEC",
+              "image": "Rigoutat RIEC.jpg"
+            },
+            {
+              "name": "Buffet Crampon 3613",
+              "image": "Buffet Crampon 3613.jpg"
+            },
+            {
+              "name": "Gebrüder Mönnig 345",
+              "image": "Gebrüder Mönnig 345.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "Ударні установки": {
+      "subcategories": {
+        "Барабани": {
+          "image": "drum_background.jpg",
+          "products": [
+            {
+              "name": "Pearl Roadshow",
+              "image": "Pearl Roadshow.jpg"
+            },
+            {
+              "name": "Ludwig Breakbeats",
+              "image": "Ludwig Breakbeats.jpg"
+            },
+            {
+              "name": "Mapex Tornado",
+              "image": "Mapex Tornado.jpg"
+            },
+            {
+              "name": "Gretsch Catalina Club",
+              "image": "Gretsch Catalina Club.jpg"
+            },
+            {
+              "name": "Tama Imperialstar",
+              "image": "Tama Imperialstar.jpeg"
+            },
+            {
+              "name": "Yamaha Stage Custom",
+              "image": "Yamaha Stage Custom.jpg"
+            },
+            {
+              "name": "DW Design Series",
+              "image": "DW Design Series.jpg"
+            },
+            {
+              "name": "PDP Concept Birch",
+              "image": "PDP Concept Birch.jpg"
+            },
+            {
+              "name": "Sonor AQ2",
+              "image": "Sonor AQ2.jpg"
+            },
+            {
+              "name": "Roland TD-1DMK",
+              "image": "Roland TD-1DMK.jpg"
+            }
+          ]
+        },
+        "Цимбали": {
+          "image": "cimbalom_background.jpg",
+          "products": [
+            {
+              "name": "Zildjian K Constantinople",
+              "image": "zildjian k constantinople.jpg"
+            },
+            {
+              "name": "Sabian HHX Evolution",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Meinl Byzance Vintage",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Istanbul Agop Signature",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Paiste Masters",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Bosphorus Traditional Series",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Dream Cymbals Bliss",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Soultone Vintage Old School",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "UFIP Natural Series",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Meinl Pure Alloy",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Маримба": {
+          "image": "marimba_background.jpg",
+          "products": [
+            {
+              "name": "Adams MAHC43",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Yamaha YM-40",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Musser M51",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Malletech Grand Soloist",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Bergerault MAM",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Marimba One Izzy",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "DeMorrow Concert",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Majestic Gateway",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Stagg MAM6",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Pearl MJB-2023",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Ксилофони": {
+          "image": "xylophone_background.jpg",
+          "products": [
+            {
+              "name": "Adams Academy",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Yamaha YX-135",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Musser M300",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Marimba One Wave",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Bergerault XO",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Deagan Model 40",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Majestic Gateway",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Stagg XYLO-SET 37",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Pearl PK-900C",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Premier 700",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Тимпани": {
+          "image": "timpani_background.jpg",
+          "products": [
+            {
+              "name": "Adams Revolution",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Yamaha TP-4300",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Musser M51",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Ludwig Professional",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Bergerault Prestige",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Deagan Model 25",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Majestic Prophonic",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Stagg TI-1442",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Pearl FFXP",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Premier HTS",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Контрабасові барабани": {
+          "image": "bas_drum_background.jpg",
+          "products": [
+            {
+              "name": "Ludwig",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gretsch",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Sonor",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Pearl",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Tama",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "DW",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Mapex",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Yamaha",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "PDP",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "SJC",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        }
+      }
+    },
+    "Струнні інструменти": {
+      "subcategories": {
+        "Скрипки": {
+          "image": "violin_background.jpg",
+          "products": [
+            {
+              "name": "Stradivarius",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Guarneri",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Amati",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Stainer",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Bergonzi",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gagliano",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Montagnana",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Del Gesù",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Vuillaume",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Sartory",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Віолончелі": {
+          "image": "cello_background.jpg",
+          "products": [
+            {
+              "name": "Stradivarius",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Montagnana",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Amati",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Goffriller",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Ruggeri",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Guadagnini",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Guarneri",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Scarampella",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Testore",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Maggini",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Контрабаси": {
+          "image": "contrabass_backgroundjpg.jpg",
+          "products": [
+            {
+              "name": "Stradivarius",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Montagnana",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gasparo da Salò",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Guarneri",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Amati",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gagliano",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Vuillaume",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Guadagnini",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Testore",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Scarampella",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Банджо": {
+          "image": "banjo_background.jpg",
+          "products": [
+            {
+              "name": "Gibson Mastertone",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Deering Goodtime",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Epiphone MB-100",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gold Tone CC-100R",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Recording King RK-R35",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Fender FB-54",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Pisgah Rambler",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Bart Reiter Special",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Stelling Red Fox",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gretsch G9410 Broadkaster",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Мандоліни": {
+          "image": "mandolin_background.jpg",
+          "products": [
+            {
+              "name": "Gibson F-5",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Kentucky KM-150",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Eastman MD315",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Collings MF",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Weber Bitterroot",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "The Loar LM-520",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Ibanez M522S",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Northfield F5S",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Saga RM-15",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Breedlove Crossover OF",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Лютні": {
+          "image": "lyutnya_background.jpg",
+          "products": [
+            {
+              "name": "Andreas von Holst",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Michael Schreiner",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Hans Frei",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Stephen Barber",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Mick Patten",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Bernd Krause",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Daniel Larson",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Luca Waldner",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Hans Kresse",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Nikolay Sinikov",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Гармоніки": {
+          "image": "harmonica_background.jpg",
+          "products": [
+            {
+              "name": "Hohner Bravo III 72",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Roland FR-8x",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Dallape Super Maestro",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Scandalli Air IV",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Victoria Vip 2",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Paloma 202",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Titano Virtuoso",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Sonola SS20",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Beltuna Balkan Star",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Weltmeister Rubin",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        }
+      }
+    },
+    "Аксесуари": {
+      "subcategories": {
+        "Струни": {
+          "image": "strings_background.jpg",
+          "products": [
+            {
+              "name": "D'Addario",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Ernie Ball",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Elixir",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Fender",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "GHS",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Martin",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Rotosound",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Thomastik-Infeld",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "DR Strings",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Pyramid",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Педалі": {
+          "image": "pedals_background.jpg",
+          "products": [
+            {
+              "name": "Boss DS-1",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Ibanez Tube Screamer",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "MXR Phase 90",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Electro-Harmonix Big Muff Pi",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "TC Electronic Flashback Delay",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Digitech Whammy",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "EHX Holy Grail Reverb",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Strymon Timeline",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "ProCo Rat",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Fulltone OCD",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Кейси та сумки": {
+          "image": "bags_background.jpg",
+          "products": [
+            {
+              "name": "Gator Cases GTSA-GTR335",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "SKB 1SKB-66",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Fender Deluxe Molded Case",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "MONO M80 Dual Electric Guitar Case",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gruv Gear GigBlade 2 Electric Guitar Gig Bag",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Reunion Blues RBX Electric Guitar Case",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "ProRockGear Artist Series Acoustic Guitar Case",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Road Runner RRMADN ABS Molded Acoustic Guitar Case",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Musician's Gear Deluxe Classical Guitar Case",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gator Cases GTSA-GTRELEC",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Стійки": {
+          "image": "rack_background.jpg",
+          "products": [
+            {
+              "name": "Hercules GS414B",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Ultimate Support GS-1000 Pro",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "On-Stage Stands XCG4",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Yamaha FC4A",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "K&M 17513",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gator Frameworks GFW-GTR-2000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Fender Deluxe Hanging Guitar Stand",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Hercules GS525B",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gator Frameworks GFW-GTR-1000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Planet Waves PW-GR-01",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Метрономи": {
+          "image": "metronome_background.jpeg",
+          "products": [
+            {
+              "name": "Korg TM60BK",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Peterson BodyBeat Sync",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Boss DB-90",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Wittner Taktell Piccolo",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Seiko SQ50V",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Tama Rhythm Watch RW200",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Matrix MR600",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Cherub WSM-330",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Wittner Metronome 836 Taktell Piccolo",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "KLIQ MetroPitch",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Струнотяги": {
+          "image": "string_winding_background.jpg",
+          "products": [
+            {
+              "name": "Planet Waves Pro-Winder",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "D'Addario NS Micro Clip-On Tuner",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gruv Gear FretWraps",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Ernie Ball Power Peg Pro",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Music Nomad MN227 The Octopus",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "StewMac String Action Gauge",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Dunlop System 65 Guitar Tech Kit",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Kling-On Guitar Products Clear Pickguard Sheet",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Big Bends Nut Sauce Tuning Lubricant",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gruv Gear Fretboard Cleaner Kit",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Каподастр": {
+          "image": "capo_background.jpg",
+          "products": [
+            {
+              "name": "Kyser Quick-Change",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "G7th Performance 3",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Shubb Deluxe",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Dunlop 83CB Trigger",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Planet Waves NS Capo Lite",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Paige P6E-BK",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "K&M 14670",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gruv Gear FretWrap Capo",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Fender Smart Capo",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Jim Dunlop 14F Flat",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Підставки для нот": {
+          "image": "music_stand_background.jpg",
+          "products": [
+            {
+              "name": "Manhasset Model #48",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "On-Stage SM7211B",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Musician's Gear Heavy-Duty Folding Music Stand",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Peak Music Stands SMS-20",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Hamilton KB95/E",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "K&M 10065",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Hercules BS050B",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "RATstands Jazz Stand 96",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gator Frameworks GFW-MUS-0500",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "ProLine PL48 Conductor/Orchestra Sheet Music Stand",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        }
+      }
+    },
+    "Звукозапис": {
+      "subcategories": {
+        "Мікрофони": {
+          "image": "microphone_background.jpg",
+          "products": [
+            {
+              "name": "Shure SM58",
+              "image": "путь_к_изображению_Shure_SM58"
+            },
+            {
+              "name": "Audio-Technica AT2020",
+              "image": "путь_к_изображению_Audio-Technica_AT2020"
+            },
+            {
+              "name": "Sennheiser e835",
+              "image": "путь_к_изображению_Sennheiser_e835"
+            },
+            {
+              "name": "Neumann U87",
+              "image": "путь_к_изображению_Neumann_U87"
+            },
+            {
+              "name": "AKG C414",
+              "image": "путь_к_изображению_AKG_C414"
+            },
+            {
+              "name": "Rode NT1",
+              "image": "путь_к_изображению_Rode_NT1"
+            },
+            {
+              "name": "Electro-Voice RE20",
+              "image": "путь_к_изображению_Electro-Voice_RE20"
+            },
+            {
+              "name": "Shure SM7B",
+              "image": "путь_к_изображению_Shure_SM7B"
+            },
+            {
+              "name": "Blue Yeti",
+              "image": "путь_к_изображению_Blue_Yeti"
+            },
+            {
+              "name": "Rode NTG3",
+              "image": "путь_к_изображению_Rode_NTG3"
+            }
+          ]
+        },
+        "Аудіоінтерфейси": {
+          "image": "audio_interface_background.jpg",
+          "products": [
+            {
+              "name": "Focusrite Scarlett 2i2",
+              "image": "путь_к_изображению_Focusrite_Scarlett_2i2"
+            },
+            {
+              "name": "PreSonus AudioBox USB 96",
+              "image": "путь_к_изображению_PreSonus_AudioBox_USB_96"
+            },
+            {
+              "name": "Universal Audio Apollo Twin",
+              "image": "путь_к_изображению_Universal_Audio_Apollo_Twin"
+            },
+            {
+              "name": "Steinberg UR22C",
+              "image": "путь_к_изображению_Steinberg_UR22C"
+            },
+            {
+              "name": "Native Instruments Komplete Audio 6",
+              "image": "путь_к_изображению_Native_Instruments_Komplete_Audio_6"
+            },
+            {
+              "name": "Behringer U-Phoria UMC22",
+              "image": "путь_к_изображению_Behringer_U-Phoria_UMC22"
+            },
+            {
+              "name": "Audient iD4",
+              "image": "путь_к_изображению_Audient_iD4"
+            },
+            {
+              "name": "Apogee Duet",
+              "image": "путь_к_изображению_Apogee_Duet"
+            },
+            {
+              "name": "MOTU M2",
+              "image": "путь_к_изображению_MOTU_M2"
+            },
+            {
+              "name": "RME Babyface Pro",
+              "image": "путь_к_изображению_RME_Babyface_Pro"
+            }
+          ]
+        },
+        "Студійні монітори": {
+          "image": "studio_monitor_background.jpeg",
+          "products": [
+            {
+              "name": "Yamaha HS5",
+              "image": "https://example.com/images/yamaha-hs5.jpg"
+            },
+            {
+              "name": "KRK Rokit 5 G4",
+              "image": "https://example.com/images/krk-rokit-5-g4.jpg"
+            },
+            {
+              "name": "Presonus Eris E5",
+              "image": "https://example.com/images/presonus-eris-e5.jpg"
+            },
+            {
+              "name": "Adam Audio T5V",
+              "image": "https://example.com/images/adam-audio-t5v.jpg"
+            },
+            {
+              "name": "JBL 305P MkII",
+              "image": "https://example.com/images/jbl-305p-mkii.jpg"
+            },
+            {
+              "name": "Focal Alpha 50",
+              "image": "https://example.com/images/focal-alpha-50.jpg"
+            },
+            {
+              "name": "Neumann KH 120 A",
+              "image": "https://example.com/images/neumann-kh-120-a.jpg"
+            },
+            {
+              "name": "Mackie CR-X Series CR5-XBT",
+              "image": "https://example.com/images/mackie-cr-x-series-cr5-xbt.jpg"
+            },
+            {
+              "name": "Genelec 8030C",
+              "image": "https://example.com/images/genelec-8030c.jpg"
+            },
+            {
+              "name": "Avantone Pro MixCube",
+              "image": "https://example.com/images/avantone-pro-mixcube.jpg"
+            }
+          ]
+        },
+        "Мікшерні пульті": {
+          "image": "mixing_consoles_background.jpg",
+          "products": [
+            {
+              "name": "Behringer X32",
+              "image": "https://example.com/images/behringer-x32.jpg"
+            },
+            {
+              "name": "Allen & Heath QU-16",
+              "image": "https://example.com/images/allen-heath-qu-16.jpg"
+            },
+            {
+              "name": "Yamaha TF5",
+              "image": "https://example.com/images/yamaha-tf5.jpg"
+            },
+            {
+              "name": "Mackie DL32S",
+              "image": "https://example.com/images/mackie-dl32s.jpg"
+            },
+            {
+              "name": "Soundcraft Signature 22MTK",
+              "image": "https://example.com/images/soundcraft-signature-22mtk.jpg"
+            },
+            {
+              "name": "PreSonus StudioLive 32SX",
+              "image": "https://example.com/images/presonus-studiolive-32sx.jpg"
+            },
+            {
+              "name": "Midas M32R",
+              "image": "https://example.com/images/midas-m32r.jpg"
+            },
+            {
+              "name": "Behringer XR18",
+              "image": "https://example.com/images/behringer-xr18.jpg"
+            },
+            {
+              "name": "Allen & Heath ZEDi-10FX",
+              "image": "https://example.com/images/allen-heath-zedi-10fx.jpg"
+            },
+            {
+              "name": "Soundcraft Notepad-12FX",
+              "image": "https://example.com/images/soundcraft-notepad-12fx.jpg"
+            }
+          ]
+        },
+        "Звукознімальне обладнання": {
+          "image": "recording_equipment_background.jpg",
+          "products": [
+            {
+              "name": "Zoom H5",
+              "image": "https://example.com/images/zoom-h5.jpg"
+            },
+            {
+              "name": "Tascam DR-40X",
+              "image": "https://example.com/images/tascam-dr-40x.jpg"
+            },
+            {
+              "name": "Rode NT-USB",
+              "image": "https://example.com/images/rode-nt-usb.jpg"
+            },
+            {
+              "name": "Sennheiser MD 421",
+              "image": "https://example.com/images/sennheiser-md-421.jpg"
+            },
+            {
+              "name": "Shure SM57",
+              "image": "https://example.com/images/shure-sm57.jpg"
+            },
+            {
+              "name": "AKG C451 B",
+              "image": "https://example.com/images/akg-c451-b.jpg"
+            },
+            {
+              "name": "Neumann KM 184",
+              "image": "https://example.com/images/neumann-km-184.jpg"
+            },
+            {
+              "name": "Electro-Voice RE20",
+              "image": "https://example.com/images/electro-voice-re20.jpg"
+            },
+            {
+              "name": "Audio-Technica AT4050",
+              "image": "https://example.com/images/audio-technica-at4050.jpg"
+            },
+            {
+              "name": "Rode NTG5",
+              "image": "https://example.com/images/rode-ntg5.jpg"
+            }
+          ]
+        },
+        "Поп-фільтри": {
+          "image": "pop_filter_background.jpg",
+          "products": [
+            {
+              "name": "Aokeo Professional Microphone Pop Filter",
+              "image": "https://example.com/images/aokeo-professional-microphone-pop-filter.jpg"
+            },
+            {
+              "name": "Earamble Studio Microphone Pop Filter",
+              "image": "https://example.com/images/earamble-studio-microphone-pop-filter.jpg"
+            },
+            {
+              "name": "Aokeo Premium Microphone Pop Filter",
+              "image": "https://example.com/images/aokeo-premium-microphone-pop-filter.jpg"
+            },
+            {
+              "name": "Aokeo Round Pop Filter",
+              "image": "https://example.com/images/aokeo-round-pop-filter.jpg"
+            },
+            {
+              "name": "Stedman Corporation Proscreen XL",
+              "image": "https://example.com/images/stedman-corporation-proscreen-xl.jpg"
+            },
+            {
+              "name": "Dragonpad USA Pop Filter",
+              "image": "https://example.com/images/dragonpad-usa-pop-filter.jpg"
+            },
+            {
+              "name": "Stedman Corporation Proscreen PS101",
+              "image": "https://example.com/images/stedman-corporation-proscreen-ps101.jpg"
+            },
+            {
+              "name": "Nady MPF-6",
+              "image": "https://example.com/images/nady-mpf-6.jpg"
+            },
+            {
+              "name": "MXL PF-002 Universal Pop Filter",
+              "image": "https://example.com/images/mxl-pf-002-universal-pop-filter.jpg"
+            },
+            {
+              "name": "Aokeo AK-107 Pop Filter",
+              "image": "https://example.com/images/aokeo-ak-107-pop-filter.jpg"
+            }
+          ]
+        },
+        "Акустичні панелі": {
+          "image": "acoustic_panel_background.jpg",
+          "products": [
+            {
+              "name": "Auralex Acoustics Studiofoam Panels",
+              "image": "https://example.com/images/auralex-acoustics-studiofoam-panels.jpg"
+            },
+            {
+              "name": "ATS Acoustics Acoustic Panels",
+              "image": "https://example.com/images/ats-acoustics-acoustic-panels.jpg"
+            },
+            {
+              "name": "Arrowzoom Acoustic Panels",
+              "image": "https://example.com/images/arrowzoom-acoustic-panels.jpg"
+            },
+            {
+              "name": "Pro Studio Acoustics Acoustic Panels",
+              "image": "https://example.com/images/pro-studio-acoustics-acoustic-panels.jpg"
+            },
+            {
+              "name": "Fovitec Acoustic Panels",
+              "image": "https://example.com/images/fovitec-acoustic-panels.jpg"
+            },
+            {
+              "name": "Foamily Acoustic Panels",
+              "image": "https://example.com/images/foamily-acoustic-panels.jpg"
+            },
+            {
+              "name": "Aokeo Acoustic Panels",
+              "image": "https://example.com/images/aokeo-acoustic-panels.jpg"
+            },
+            {
+              "name": "Mybecca Acoustic Panels",
+              "image": "https://example.com/images/mybecca-acoustic-panels.jpg"
+            },
+            {
+              "name": "BXI Sound Absorber Panels",
+              "image": "https://example.com/images/bxi-sound-absorber-panels.jpg"
+            },
+            {
+              "name": "JBER Acoustic Panels",
+              "image": "https://example.com/images/jber-acoustic-panels.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "Сценічна апаратура": {
+      "subcategories": {
+        "Гучномовці": {
+          "image": "speaker_background.jpg",
+          "products": [
+            {
+              "name": "JBL EON615",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "QSC K12.2",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Yamaha DXR10",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Mackie Thump15A",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "EV ZLX-12P",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Alto Professional TS312",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Behringer Eurolive B112D",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "RCF ART 312-A MK4",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Presonus ULT12",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Fender Fighter 12",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Мікрофони для виступів": {
+          "image": "micro_background.jpg",
+          "products": [
+            {
+              "name": "Shure SM58",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Sennheiser e835",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Audio-Technica ATM710",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Electro-Voice ND76",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "AKG D5",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Audix OM5",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Rode M1",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Behringer XM8500",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Telefunken M80",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Heil Sound PR 35",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Звукові процесори": {
+          "image": "sound_processors_background.jpg",
+          "products": [
+            {
+              "name": "TC Helicon VoiceLive 3 Extreme",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "DBX 286s",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Lexicon MX400",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Behringer Virtualizer 3D FX2000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Yamaha SPX2000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Alesis MicroVerb 4",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Eventide H9 Harmonizer",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Line 6 Helix",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Roland VT-4",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "TC Electronic G-Major 2",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Змішувачі": {
+          "image": "mixer_background.jpg",
+          "products": [
+            {
+              "name": "Behringer X32",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Mackie 3204VLZ4",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Allen & Heath ZED-12FX",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Yamaha MG10XU",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Soundcraft Signature 12MTK",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "PreSonus StudioLive AR16c",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Midas MR12",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Behringer Xenyx Q802USB",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Mackie Mix8",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Allen & Heath ZEDi-10",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Ефект-процесори": {
+          "image": "effect_processors_background.jpg",
+          "products": [
+            {
+              "name": "Eventide H9 Max",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Line 6 Helix",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "TC Electronic Flashback X4",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Strymon BigSky",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Boss GT-1000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Electro-Harmonix Holy Grail Max",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "TC-Helicon VoiceLive 3",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Line 6 POD HD500X",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Digitech RP1000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Zoom G5n",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Діджейське обладнання": {
+          "image": "dj_equipment_background.jpg",
+          "products": [
+            {
+              "name": "Pioneer DJ CDJ-2000NXS2",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Denon DJ SC6000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Native Instruments Traktor Kontrol S4 MK3",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Numark NS7III",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Allen & Heath Xone:92",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Pioneer DJM-900NXS2",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Denon DJ X1850 Prime",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Roland DJ-505",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Numark Mixtrack Platinum FX",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Native Instruments Traktor Kontrol Z2",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Освітлення для виступів": {
+          "image": "consecration_background.jpg",
+          "products": [
+            {
+              "name": "Chauvet DJ GigBAR Move",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "ADJ Mega Par Profile Plus",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Martin Lighting Rush MH 6 Wash",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Elation Professional SixPar Z19",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Blizzard Lighting RokBox EXA",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "CHAUVET DJ Swarm Wash FX",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "American DJ Dotz Par",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Elation Professional Sniper 2R",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "ADJ Focus Spot Three Z",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Martin Lighting Rush MH 7 Hybrid",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        },
+        "Сценічні аксесуари": {
+          "image": "accessories_background.jpg",
+          "products": [
+            {
+              "name": "Odyssey LSTANDM",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Gator Cases Frameworks GFW-GTR-3000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Ultimate Support IQ-3000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "On-Stage RS7000",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Hercules DG400BB",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Quik-Lok BS-625",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "K&M 15222",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Hercules MS533B",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "Hercules GS412B Plus",
+              "image": "путь_к_изображению_товара"
+            },
+            {
+              "name": "ProLine PL4KD Doublebraced Keyboard Stand",
+              "image": "путь_к_изображению_товара"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
