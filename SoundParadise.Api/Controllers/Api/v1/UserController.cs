@@ -45,84 +45,23 @@ public class UserController : BaseApiController
         _options = options;
         _imageService = imageService;
     }
-
-    #region PUT
-
+    
+    #region GET
+    
+    /// <summary>
+    ///     Gets the currently authenticated user.
+    /// </summary>
+    /// <returns>UserDto</returns>
     [Authorize]
-    [HttpPut(ApiRoutes.User.UpdateUser)]
-    [SwaggerResponse((int)HttpStatusCode.OK, "Updating user's data", typeof(string))]
-    private IActionResult UpdateUser(UserDto userDto)
+    [HttpGet(ApiRoutes.User.GetCurrentUser)]
+    [SwaggerResponse((int)HttpStatusCode.OK, "Getting the current user", typeof(UserDto))]
+    public IActionResult GetCurrentUser()
     {
-        if (userDto == null!)
-            return BadRequest("User data is null");
-
         var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-        var user = _userCrud.GetUserById(Guid.Parse(userId));
+        var user = _userCrud.GetUserDtoById(Guid.Parse(userId));
 
-        if (user == null!)
-            return BadRequest("User not found");
-
-        if (userDto.Id != user.Id)
-            return BadRequest("User ID does not match");
-
-        var result = _userCrud.UpdateUser(userDto);
-
-        return result.IsSuccess
-            ? Ok(new { result.Message })
-            : StatusCode((int)result.HttpStatus, new { error = result.Message });
-    }
-
-    #endregion
-
-    #region DELETE
-
-    /// <summary>
-    ///     Deletes a user with the specified user ID.
-    /// </summary>
-    /// <param name="userId">The ID of the user to delete.</param>
-    /// <returns>The user is successfully deleted.</returns>
-    [HttpDelete(ApiRoutes.Delete)]
-    [SwaggerResponse((int)HttpStatusCode.OK, "The user is successfully deleted.", typeof(string))]
-    [SwaggerResponse((int)HttpStatusCode.BadRequest, "Invalid user ID. Returns an error message.", typeof(string))]
-    public IActionResult DeleteUser([FromQuery] Guid userId)
-    {
-        var user = _userCrud.GetUserById(userId);
-        if (user == null!) return NotFound("The user does not exist.");
-        _userCrud.DeleteUser(userId);
-        return Ok(new { message = "The user is successfully deleted" });
-    }
-
-    #endregion
-
-    #region GET
-
-    /// <summary>
-    ///     Retrieves the details of the authenticated user.
-    /// </summary>
-    /// <returns>Details of the user.</returns>
-    [Authorize]
-    [HttpGet(ApiRoutes.User.SecureEndpoint)]
-    [Authorize(Policy = AuthPolicies.SellerPolicy)]
-    [SwaggerResponse((int)HttpStatusCode.OK, "Returns the user information in the form of a UserDto object.",
-        typeof(UserDto))]
-    public IActionResult SecureEndpoint()
-    {
-        var userClaims = HttpContext.User;
-        var userId = userClaims.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        if (userId == null) return null!;
-        var user = _userCrud.GetUserById(Guid.Parse(userId));
-        if (user.Name == null!) return null!;
-        var userDto = new UserDto
-        {
-            Name = user.Name,
-            Surname = user.Surname,
-            Username = user.Username,
-            Email = user.Email,
-            PhoneNumber = user.PhoneNumber,
-            Role = user.Role
-        };
-        return Ok(userDto);
+        return Ok(user);
     }
 
     /// <summary>
@@ -231,22 +170,6 @@ public class UserController : BaseApiController
     }
 
     /// <summary>
-    ///     Gets the currently authenticated user.
-    /// </summary>
-    /// <returns>UserDto</returns>
-    [Authorize]
-    [HttpPost(ApiRoutes.User.GetCurrentUser)]
-    [SwaggerResponse((int)HttpStatusCode.OK, "Getting the current user", typeof(UserDto))]
-    public IActionResult GetCurrentUser()
-    {
-        var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-        var user = _userCrud.GetUserDtoById(Guid.Parse(userId));
-
-        return Ok(user);
-    }
-
-    /// <summary>
     ///     Uploads a user's avatar.
     /// </summary>
     /// <param name="file"></param>
@@ -270,6 +193,55 @@ public class UserController : BaseApiController
         return result.IsSuccess
             ? Ok(new { result.Message })
             : StatusCode((int)result.HttpStatus, new { error = result.Message });
+    }
+
+    #endregion
+
+    #region PUT
+
+    [Authorize]
+    [HttpPut(ApiRoutes.User.UpdateUser)]
+    [SwaggerResponse((int)HttpStatusCode.OK, "Updating user's data", typeof(string))]
+    public IActionResult UpdateUser(UserDto userDto)
+    {
+        if (userDto == null!)
+            return BadRequest("User data is null");
+
+        var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        var user = _userCrud.GetUserById(Guid.Parse(userId));
+
+        if (user == null!)
+            return BadRequest("User not found");
+
+        if (userDto.Id != user.Id)
+            return BadRequest("User ID does not match");
+
+        var result = _userCrud.UpdateUser(userDto);
+
+        return result.IsSuccess
+            ? Ok(new { result.Message })
+            : StatusCode((int)result.HttpStatus, new { error = result.Message });
+    }
+
+    #endregion
+
+    #region DELETE
+
+    /// <summary>
+    ///     Deletes a user with the specified user ID.
+    /// </summary>
+    /// <param name="userId">The ID of the user to delete.</param>
+    /// <returns>The user is successfully deleted.</returns>
+    [HttpDelete(ApiRoutes.Delete)]
+    [SwaggerResponse((int)HttpStatusCode.OK, "The user is successfully deleted.", typeof(string))]
+    [SwaggerResponse((int)HttpStatusCode.BadRequest, "Invalid user ID. Returns an error message.", typeof(string))]
+    public IActionResult DeleteUser([FromQuery] Guid userId)
+    {
+        var user = _userCrud.GetUserById(userId);
+        if (user == null!) return NotFound("The user does not exist.");
+        _userCrud.DeleteUser(userId);
+        return Ok(new { message = "The user is successfully deleted" });
     }
 
     #endregion
